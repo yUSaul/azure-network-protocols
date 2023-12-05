@@ -32,7 +32,7 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 <h2>Actions and Observations</h2>
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="![azurevms](https://github.com/yUSaul/azure-network-protocols/assets/140694677/eb6ac9e9-1214-4f3d-a90b-76322bd0b292)"/>
 </p>
 <p>
 Firstly, we create our two Virtual Machines in Microsoft Azure.  
