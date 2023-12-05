@@ -32,7 +32,7 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 <h2>Actions and Observations</h2>
 
 <p>
-<img src="![azurevms](https://github.com/yUSaul/azure-network-protocols/assets/140694677/eb6ac9e9-1214-4f3d-a90b-76322bd0b292)"/>
+<img src="https://github.com/yUSaul/azure-network-protocols/assets/140694677/eb6ac9e9-1214-4f3d-a90b-76322bd0b292"/>
 </p>
 <p>
 Firstly, we create our two Virtual Machines in Microsoft Azure.  
@@ -40,7 +40,7 @@ Firstly, we create our two Virtual Machines in Microsoft Azure.
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://github.com/yUSaul/azure-network-protocols/assets/140694677/958e0ef5-e37c-45e5-af12-0d4d1396bfb4"/>
 </p>
 <p>
 After creating our Windows and Ubuntu Virtual Machines in Microsoft Azure, we use Remote Desktop to connect to the Windows VM using its public IP address.
@@ -48,7 +48,7 @@ After creating our Windows and Ubuntu Virtual Machines in Microsoft Azure, we us
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://github.com/yUSaul/azure-network-protocols/assets/140694677/a78fcb02-7909-4116-8d90-794cfe89d765"/>
 </p>
 <p>
 Once we access our Windows Virtual Machine we go to Wireshark's website to download and install the program.
@@ -56,7 +56,7 @@ Once we access our Windows Virtual Machine we go to Wireshark's website to downl
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://github.com/yUSaul/azure-network-protocols/assets/140694677/8743ab43-069a-4b63-b743-04d2db249cc6"/>
 </p>
 <p>
 When Wireshark has finished installing open the program and select the ethernet adapter, then press "Start Capturing Packets" in the top left.  This will show you all the live traffic happening on the VM.  
@@ -64,7 +64,7 @@ When Wireshark has finished installing open the program and select the ethernet 
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://github.com/yUSaul/azure-network-protocols/assets/140694677/a792efe6-ddcf-4c6d-b337-a75bf697a2ea"/>
 </p>
 <p>
 We want to filter by ICMP, so type ICMP into the open bar and press enter.  This will be used to allow us to watch traffic between our two VMs.  We will need to get our second VM's private IP address to do this, which is found in Azure.
@@ -72,7 +72,7 @@ We want to filter by ICMP, so type ICMP into the open bar and press enter.  This
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://github.com/yUSaul/azure-network-protocols/assets/140694677/26cba95d-e911-42a5-ba43-562d4c8ecb19"/>
 </p>
 <p>
 With our VM2 private IP address, go back to our RDP connection with VM1 and open up PowerShell.  Use the ping command followed by the VM2 private IP.  The ping traffic will be visible in both PowerShell and Wireshark.
@@ -80,7 +80,7 @@ With our VM2 private IP address, go back to our RDP connection with VM1 and open
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://github.com/yUSaul/azure-network-protocols/assets/140694677/fa4a8600-1ba9-41cc-8f45-588faa46ad29"/>
 </p>
 <p>
 We can also try out a website such as google.com.  Using the ping command again followed by www.google.com, we can then analyze traffic in Wireshark.  There is much more that can be done with Wireshark, such as monitoring other types of traffic.  SSH, DNS, and RDP are a few examples.
